@@ -59,15 +59,14 @@ body{
 	
 /* Nav */
 nav{
-    position: relative;
+    position: absolute;
     display: block;
     width: 850px;
     height: 36px;
-    margin: 18px auto;
+    margin: 20px 0 0 -425px;
+    left: 50%;
     text-align: left;
     z-index: 9998;
-    top: 18px;
-    margin: 0 auto;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2)))no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));    border: #000000 solid 1px;
     border-radius: 5px;
 }
@@ -133,7 +132,7 @@ nav{
 	background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 .centered {
@@ -171,16 +170,14 @@ nav{
 
 .hero-text{
     text-align: center;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    top: 30%;
+    top: 40%;
     width: 100%;
-    font-weight: lighter;
-    color: #ffffff;
 }
 .hero-text img.hero-text-main{
     width: 75%;
-    height: auto;	
+    height: 120%;	
 }
 
 .hero-main{
@@ -203,7 +200,7 @@ nav{
 }
 .hero-text img.hero-text-two{
     width: 75%;
-    height: auto;	
+    height: 200%;	
 }
 
 /* menu -area*/
